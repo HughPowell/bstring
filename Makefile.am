@@ -14,7 +14,7 @@ bstring_libbstring_la_LDFLAGS = \
 	-version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE)
 
 # install development headers
-pkgincludedir = $(includedir)/bstring
+pkgincludedir = $(includedir)
 pkginclude_HEADERS = \
 	bstring/bstraux.h \
 	bstring/bstrlib.h
